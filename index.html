@@ -9,13 +9,27 @@
   </head>
   <body>
     <div class="container">
-      <h1>File Tree</h1>
       <div class="row">
-        <ul>
-          <li class="far fa-folder">&nbsp;folder</li>
-          <li class="far fa-file-alt">&nbsp;subtitle</li>
-          <li class="far fa-file-video">&nbsp;video</li>
-        </ul>
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+          <h1>File Tree</h1>
+          <span class="path">
+            <a href="#"><i class="fas fa-folder"></i></a>
+            &nbsp;&sol;
+          </span>
+
+          <div id="wrap">
+            <div onclick="location.href='#';" class="far fa-folder files">
+              &nbsp;folder
+            </div>
+            <div class="far fa-file-alt files">&nbsp;subtitle</div>
+            <div
+              onclick="location.href='html/player.html';"
+              class="far fa-file-video files"
+            >
+              &nbsp;video
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

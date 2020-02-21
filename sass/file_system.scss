@@ -1,0 +1,14 @@
+@import "C:/Users/richa/node_modules/bootstrap/scss/bootstrap.scss";
+
+$border-radius: 15px;
+$icons-size: 20px;
+
+.row {
+  border: 1px lightgray solid;
+  //  border-radius: $border-radius;
+}
+
+li {
+  width: 100%;
+  font-size: $icons-size;
+}

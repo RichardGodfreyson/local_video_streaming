@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Plyr Demo</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.4.6/plyr.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="container plyr">
+      <video controls playsinline id="player">
+        <!-- Video files -->
+        <source
+          id="video"
+          src="[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][01][x264 1080p][CHS].mp4"
+          type="video/mp4"
+          size="1080"
+        />
+      </video>
+
+      <div class="actions">
+        <button type="button" class="btn js-play">Play</button>
+        <button type="button" class="btn js-pause">Pause</button>
+        <button type="button" class="btn js-stop">Stop</button>
+        <button type="button" class="btn js-rewind">Rewind</button>
+        <button type="button" class="btn js-forward">Forward</button>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdn.plyr.io/3.4.6/plyr.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

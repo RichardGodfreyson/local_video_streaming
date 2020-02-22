@@ -9,31 +9,27 @@
   </head>
 
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1 col-md-12">
-          <video
-            id="my-video"
-            class="video-js center"
-            controls
-            preload="auto"
-            data-setup="{}"
+    <div class="container">
+      <video
+        id="my-video"
+        class="video-js center"
+        controls
+        preload="auto"
+        data-setup='{"fluid":true}'
+      >
+        <source
+          src="../[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][01][x264 1080p][CHS].mp4"
+          type="video/mp4"
+        />
+        <!--source src="MY_VIDEO.webm" type="video/webm" /-->
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to
+          a web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
           >
-            <source
-              src="../[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][01][x264 1080p][CHS].mp4"
-              type="video/mp4"
-            />
-            <!--source src="MY_VIDEO.webm" type="video/webm" /-->
-            <p class="vjs-no-js">
-              To view this video please enable JavaScript, and consider
-              upgrading to a web browser that
-              <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
-              >
-            </p>
-          </video>
-        </div>
-      </div>
+        </p>
+      </video>
     </div>
     <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
   </body>

@@ -1,0 +1,38 @@
+$path-size-lg: 20px;
+$path-size-md: 18px;
+$path-size-sm: 16px;
+$path-size-xs: 14px;
+
+.pathbar {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 2px solid darkslategray;
+
+  .path {
+    font-size: $path-size-lg;
+    width: 100%;
+
+    @media (max-width: 767.98px) {
+      font-size: $path-size-xs;
+    }
+
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      font-size: $path-size-sm;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      font-size: $path-size-md;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: $path-size-lg;
+    }
+  }
+  i {
+    color: #0854a5;
+  }
+}
